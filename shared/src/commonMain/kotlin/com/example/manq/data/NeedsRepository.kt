@@ -61,6 +61,6 @@ class NeedsRepository(private val storage: Storage) {
         const val KEY_CACHE = "needs_cache"
 
         const val REMOTE_URL =
-            "https://raw.githubusercontent.com/morabatur/Ya-Donor-data/data/needs.json"
+            "https://raw.githubusercontent.com/iyzhegulovych-swag/Ya-Donordatapp/data/needs.json"
     }
 }

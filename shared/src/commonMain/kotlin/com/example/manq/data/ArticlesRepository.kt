@@ -66,6 +66,6 @@ class ArticlesRepository(private val storage: Storage) {
         const val KEY_CHECKED = "articles_checked_on"
 
         const val REMOTE_URL =
-            "https://raw.githubusercontent.com/morabatur/Ya-Donor-data/data/articles.json"
+            "https://raw.githubusercontent.com/iyzhegulovych-swag/Ya-Donordatapp/data/articles.json"
     }
 }

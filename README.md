@@ -42,7 +42,7 @@ Kotlin Multiplatform, інтерфейс спільний для Android та iO
 відкриватися без мережі.
 
 Потреба у крові, статті пам'ятки й розклад днів донора лежать в окремому
-публічному репозиторії [morabatur/Ya-Donor-data](https://github.com/morabatur/Ya-Donor-data):
+публічному репозиторії [iyzhegulovych-swag/Ya-Donordatapp](https://github.com/iyzhegulovych-swag/Ya-Donordatapp):
 там щодня працює GitHub Actions, який збирає дані з donor.utcc.gov.ua
 і публікує `needs.json`, `articles.json` та `donor-days.json`.
 

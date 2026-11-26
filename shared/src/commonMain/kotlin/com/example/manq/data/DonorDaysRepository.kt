@@ -68,6 +68,6 @@ class DonorDaysRepository(private val storage: Storage) {
         const val KEY_CHECKED = "donor_days_checked_on"
 
         const val REMOTE_URL =
-            "https://raw.githubusercontent.com/morabatur/Ya-Donor-data/data/donor-days.json"
+            "https://raw.githubusercontent.com/iyzhegulovych-swag/Ya-Donordatapp/data/donor-days.json"
     }
 }

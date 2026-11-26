@@ -1,0 +1,27 @@
+# Єдиний стиль для всіх редакторів і для ktlint, який читає цей самий файл.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+
+[*.{kt,kts}]
+indent_size = 4
+ktlint_code_style = intellij_idea
+
+# Довжину рядка не обмежуємо: тексти для користувача українською, і
+# перенос посеред речення зробив би їх тільки гіршими.
+max_line_length = off
+
+# Composable-функції за домовленістю JetBrains пишуться з великої літери,
+# і це суперечить загальному правилу іменування функцій.
+ktlint_function_naming_ignore_when_annotated_with = Composable
+
+[*.{xml,json,yml,yaml}]
+indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
